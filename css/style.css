@@ -16,11 +16,19 @@ body{
 background: rgba(43, 74, 97, 0.87);
 }
 
+.head-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .header-logo{
     width: 186px;
 height: 72px;
 flex-shrink: 0;
 }
+
+
 
 .nav-link{
     color: #FFF;
@@ -44,6 +52,9 @@ line-height: normal;
     width: 141px;
 height: 41.694px;
 flex-shrink: 0;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background: #0B0E66;
 }
 
 .nav-href{
@@ -92,6 +103,16 @@ border: 3px solid #26C7EA;
 background: #0B0E66;
 }
 
+.hero-link{
+    color: #26C7EA;
+text-align: center;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
 .hero-href{
     color: #26C7EA;
 text-align: center;
@@ -103,13 +124,15 @@ line-height: normal;
 width: 199px;
 }
 
+
+
 .hero-instagram{
     width: 30px;
 height: 30px;
 flex-shrink: 0;
 }
 
-.hero-twiter{
+.hero-twitter{
     width: 34px;
 height: 30px;
 flex-shrink: 0;
@@ -153,11 +176,12 @@ flex-shrink: 0;
 }
 
 
+
 .girl-background{
     width: 1440px;
     height: 741px;
     flex-shrink: 0;
-    background-image: url(../img/girl.jpg);
+    background-image: url(../img/girl.png);
 }
 
 .background-navi{
