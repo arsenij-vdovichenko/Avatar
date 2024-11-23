@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avatar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/reset.css">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div class="container">
         <a href="./img/avatar.png" target="_blank">
-            <img src="logo.png" alt="логотип" class="logo">
+            <img src="logo.png" alt="logo" class="header-logo">
         </a>
         <nav class="header-nav">
             <ul class="nav-list">
@@ -23,18 +28,21 @@
             <li class="nav-item">
                 <a href="./index.html" class="nav-link">Contacts</a>
             </li>
-            <li><a href="">Log In</a></li>
+            <button class="nav-button"><a href="#" class="nav-href">Log In</a></button>
+           
             <li class="nav-item">
-                <a href="../pages/second.html" class="nav-link">ENG</a>
+                <a href="../pages/second.html" class="language-link">ENG</a>
             </li>
-            <li class="nav-item">
-                <a href="./index.html">UA</a>
+            <li class="nav">
+                <a href="../index.html" class="language-link">UA</a>
             </li>
         </ul>
         </nav>
+    </div>
     </header>
     <main>
         <section class="hero">
+            <div class="container">
             <h1 class="hero-title">Oe perlltxe hu tsamsiyu!
                 Ngari hu Eywa salew tirea, 
                 tokx 'ì'awn slu Na'viyä hapxì.
@@ -44,86 +52,103 @@
                     your body stays behind to 
                     become part of the People.
                     Fight with us!</h2>
-                    <button class="hero-button"></button>
+                    <button class="hero-button">
+                        <a href="" class="hero-link">Join clan</a>
+                    </button>
                     <li class="hero-item">
-                        <a href="../img/inst.png" target="_blank" class="hero-link">
-                            <img src="" alt="інстраграм">
+                        <a href="../img/inst.png" target="_blank" class="hero-instagram">
+                            <img src="#" alt="instagram">
                         </a>
                     </li>
                     <li class="hero-item">
-                        <a href="../img/twitter.png" target="_blank" class="hero-link">
-                            <img src="" alt="твітер">
+                        <a href="../img/twitter.png" target="_blank" class="hero-twitter">
+                            <img src="" alt="twitter">
                         </a>
                     </li>
                     <li class="hero-item">
-                        <a href="../img/youtube.png" target="_blank" class="hero-link">
-                            <img src="" alt="ютуб">
+                        <a href="../img/youtube.png" target="_blank" class="hero-youtube">
+                            <img src="" alt="youtube">
                         </a>
                     </li>
+                </div>
         </section>
 
         <section class="egle">
+            <div class="container">
                 <h1 class="egle-title">“A LOT OF PEOPLE FROM THE SKY ARE GONNA COME. THEY’RE</h1>
                 <h2 class="egle-title">GONNA COME LIKE A RAIN THAT NEVER ENDS.”</p>
                 <p class="egle-text">JAKE SULLY</p>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img" class="egle-img">
+            </div>
         </section>
 
         <section class="girl">
+            <div class="container">
+                <div class="girl-background">
             <button type="button" class="girl-button">
                 <a href="" class="girl-link">WATCH TRAILER</a>
             </button>
+        </div>
+        </div>
         </section>
 
         <section class="citata">
+            <div class="container">
             <h1 class="citata-title">“ALL ENERGY IS ONLY BORROWED, AND ONE DAY</h1>
             <h2 class="citata-title">YOU HAVE TO GIVE IT BACK.”</h2>
             <p class="citata-text">JAKE SULLY</p>
-            <img src="../img/egle.png" alt="">
+            <img src="../img/egle.png" alt="" class="egle-img">
+        </div>
         </section>
 
         <section class="navi">
+            <div class="container">
+            <div class="background-navi">
             <h1 class="navi-title">Let's learn the Na'vi language</h1>
             <ul class="navi-list">
             <li class="navi-item">
                 <h2 class="navi-caption">Hello</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Kaltxì</p>
             </li>
             <li class="navi-item">
                 <h2 class="navi-caption">How Are You?</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Ngaru lu fpom srak?</p>
             </li>
             <li class="navi-item">
                 <h2 class="navi-caption">I'm Well</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Lu fpom</p>
             </li>
             <li class="navi-item">
                 <h2 class="navi-caption">Thank you</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Irayo si </p>
             </li>
             <li class="navi-item">
                 <h2 class="navi-caption">I See You</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Oel ngati kameie</p>
             </li>
             <li class="navi-item">
                 <h2 class="navi-caption">Follow me!</h2>
-                <img src="../img/egle.png" alt="">
+                <img src="../img/egle.png" alt="" class="egle-img">
                 <p class="navi-text">Nong oet!</p>
             </li>
             </ul>
+        </div>
+        </div>
         </section>
 
         <section class="neytiri">
+            <div class="container">
             <h1 class="citata-title">“OUR GREAT MOTHER DOES NOT TAKE SIDES,</h1>
             <h2 class="citata-title">SHE PROTECTS ONLY THE BALANCE OF LIFE.”</h2>
             <p class="citata-text">NEYTIRI</p>
-            <img src="../img/egle.png" alt="">
+            <img src="../img/egle.png" alt="" class="egle-img">
         </section>
+    </div>
     </main>
     <footer class="footer">
         <a href="../img/avatar.png" target="_blank">
