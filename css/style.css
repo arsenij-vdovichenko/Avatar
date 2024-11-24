@@ -14,6 +14,8 @@ body{
 .header{
     border-bottom: 3px solid #FFF;
 background: rgba(43, 74, 97, 0.87);
+padding-top: 39px;
+padding-bottom: 39px;
 }
 
 .head-box{
@@ -28,7 +30,11 @@ height: 72px;
 flex-shrink: 0;
 }
 
-
+.nav-list{
+    display: flex;
+    gap: 38px;
+    align-items: center;
+}
 
 .nav-link{
     color: #FFF;
@@ -78,9 +84,22 @@ line-height: normal;
 }
 
 .hero{
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
-background-image: url(../img/hero.png);
+    background: url(../img/hero.png) lightgray 50% / cover no-repeat;
+/* background-image: url(../img/hero.png); */
+padding-bottom: 179px;
+padding-top: 180px;
 
+}
+.hero > .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-list{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-end;
 }
 
 .hero-title{
@@ -144,16 +163,15 @@ height: 30px;
 flex-shrink: 0;
 }
 
-
-.background{
-    background: #FFF;
-    width: 1440px;
-    height: 350px;
-    flex-shrink: 0;
+.egle{
+    padding-top: 75px;
+    padding-bottom: 10px;
+    text-align: center;
 }
+
 .egle-title{
     color: #0A3853;
-text-align: justify;
+text-align: center;
 font-size: 36px;
 font-style: normal;
 font-weight: 400;
@@ -167,21 +185,40 @@ font-size: 24px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 16px;
 }
 
 .egle-img{
     width: 400px;
 height: 120px;
-flex-shrink: 0;
+margin-left: auto;
+margin-right: auto;
+margin-top: 8px;
 }
 
 
 
-.girl-background{
-    width: 1440px;
-    height: 741px;
-    flex-shrink: 0;
+.girl{
     background-image: url(../img/girl.png);
+    padding-top: 330px;
+    padding-bottom: 330px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.girl-button{
+    color: #26C7EA;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 25px 20px;
+border-radius: 45px 0px;
+border: 3px solid #26C7EA;
+background: #0B0E66;
 }
 
 .background-navi{
