@@ -8,7 +8,7 @@ body{
     margin-right: auto;
     padding-left: 12px;
     padding-right: 12px;
-    outline: 1px solid blue;
+    /* outline: 1px solid blue; */
 }
 
 .header{
@@ -16,6 +16,11 @@ body{
 background: rgba(43, 74, 97, 0.87);
 padding-top: 39px;
 padding-bottom: 39px;
+/* background-image: url(../img/rectangle.webp); */
+background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/rectangle.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 
 .head-box{
@@ -117,13 +122,13 @@ font-weight: 400;
 line-height: normal;
 width: 376px;
 height: 123px;
-flex-shrink: 0;
+
 }
 
 .hero-img{
     width: 152px;
 height: 40px;
-flex-shrink: 0;
+
 }
 
 .hero-button{
@@ -321,6 +326,10 @@ line-height: 24px; /* 100% */
     padding-top: 76px;
     padding-bottom: 77px;
     background: rgba(43, 74, 97, 0.87);
+    background-image: linear-gradient( rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/rectangle.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
 .footer-box{
     display: flex;
